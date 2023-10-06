@@ -39,6 +39,16 @@ var employeesCollection = [
 var cargos = _.map(employeesCollection, function(employee){
     return {nombre: employee.name, cargo: employee.designation};
 });
-console.log(cargos);
-console.log(_.pluck(employeesCollection, "name"));
+//console.log(cargos);
+//console.log(_.pluck(employeesCollection, "name"));
 
+var empleados_sse = _.chain(employeesCollection)
+.filter(function(employee){
+    return employee.designation === 'SSE';
+})
+.map(function(employee){
+    return {name: employee.name, id:employee.id};
+})
+.value();
+
+console.log(empleados_sse);
