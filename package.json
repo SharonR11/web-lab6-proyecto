@@ -1,0 +1,19 @@
+{
+  "name": "tecsup-2023-rudasdiaz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharonR11/web-lab6-proyecto.git"
+  },
+  "author": "Sharon Rudas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SharonR11/web-lab6-proyecto/issues"
+  },
+  "homepage": "https://github.com/SharonR11/web-lab6-proyecto#readme"
+}
